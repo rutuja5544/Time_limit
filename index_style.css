@@ -25,10 +25,10 @@
 	/*margin-top: 30px;*/
 }
 
-
 .nav_bg {
 	/*margin-top: 10px;*/
 	position: relative;
+
 }
 
 .nav_bg img {
@@ -36,21 +36,49 @@
 }
 
 .nav {
+ 
 	position: absolute;
 	margin-left: 85px;
 	width: 1224px;
 	height: 66px;
-	top:5px;
 	background-color: #fd5800;
+}
+
+.nav img {
+  float:left;
+  padding-left:35px;
 }
 
 .nav ul {
 	list-style-type: none;
+  float:right;
+  margin-right:55px;
 }
 
 .nav li {
-	float: left;
-	/*display: block;*/
-	margin-left: 55px;
+  margin-top:5px;
+  color:white;
+	float:left;
+	margin-left: 50px;
 }
 
+.nav button {
+  margin-top:-20px;
+  background-color:black;
+  border:none;
+  width:100px;
+  height:35px;
+  color:white;
+}
+
+.banner {
+  width:1400px;
+  height:624px;
+  background-color:#5f5f5f;
+}
+
+.section {
+  width:1400px;
+  height:605px;
+  border:1px solid;
+}
