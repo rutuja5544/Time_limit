@@ -61,16 +61,16 @@
 }
 
 .active-1{
-    background-color: orange !important;
+    background-color: #ff6100 !important;
     color: white !important;
 }
 
 .active-2{
-    background-color: orange !important;
+    background-color: #ff6100 !important;
 }
 
 .selected{
-    color: orange;
+    color: #ff6100;
     transform: translateX(20px);
 }
 
@@ -91,7 +91,7 @@
     text-decoration: none;
 }
 
-.btn-group button:active {
+.btn-group button:active-1 {
     background-color: #ff6100 !important;
 }
 
